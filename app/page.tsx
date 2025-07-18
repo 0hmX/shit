@@ -58,7 +58,7 @@ const HeroContent = () => {
     <div className="relative h-[80vh] w-full font-[var(--font-body)]">
       <div className="absolute top-[30vh] w-full px-6 md:left-[20%] md:w-auto md:px-0 md:pl-4 md:pr-4">
         <div className="flex flex-col items-start text-left text-[var(--text-primary)]">
-          <p className="text-sm lg:text-base uppercase tracking-widest text-[var(--accent-primary)] mb-2 font-sans">kolkata</p>
+          <p className="text-sm lg:text-base uppercase tracking-widest text-[var(--accent-primary)] mb-2 font-sans">Kolkata</p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider whitespace-nowrap font-[var(--font-heading)]">
             Lead Backend Engineer
           </h1>
@@ -90,12 +90,13 @@ const HeroContent = () => {
           <p className="tracking-wide">made the tools you use daily like <a href="https://github.com/nodejs/node/issues?q=author%3A%40me" target="_blank">@Nodejs</a> better</p>
         </div>
       </div>
-      <div className="absolute top-3/4 w-full flex justify-around md:hidden text-[var(--text-secondary)]">
-         <div className="text-center text-xs">
+      {/* --- MODIFIED SECTION FOR MOBILE --- */}
+      <div className="absolute top-3/4 w-full flex md:hidden text-[var(--text-secondary)]">
+         <div className="w-1/2 text-left text-xs px-4">
             <p className="font-semibold text-[var(--text-primary)]">200%</p>
             <p className="tracking-wide">conversion increase</p>
          </div>
-         <div className="text-center text-xs">
+         <div className="w-1/2 text-left text-xs px-4">
             <p className="font-semibold text-[var(--text-primary)]">open source</p>
             <p className="tracking-wide">made the tools you use daily like <a href="https://github.com/nodejs/node/issues?q=author%3A%40me" target="_blank">@Nodejs</a> better</p>
          </div>
