@@ -72,7 +72,7 @@ const HeroContent = () => {
                 boxShadow: '0 4px 14px 0 var(--accent-glow)',
             }}
           >
-            Contact Now
+            <a href="https://x.com/0hm_X" target="_blank">Contact Now</a>
           </button>
         </div>
       </div>
